@@ -1,0 +1,616 @@
+[2026-03-09T19:56:16.501+0000] {manager.py:470} INFO - Processing files using up to 2 processes at a time 
+[2026-03-09T19:56:16.501+0000] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2026-03-09T19:56:16.502+0000] {manager.py:472} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2026-03-09T19:56:16.503+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-09T19:56:16.530+0000] {manager.py:740} INFO - There are 3 files in /opt/airflow/dags
+[2026-03-09T19:56:16.644+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/dashboard.py          43  0.05s             0           0
+/opt/airflow/dags/generate_mongo.py                           0           0
+/opt/airflow/dags/mongo_v_postre.py     44  0.02s             0           0
+================================================================================
+[2026-03-09T19:56:46.939+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dashboard.py          46  0.01s             1           0  0.24s           2026-03-09T19:56:16
+/opt/airflow/dags/mongo_v_postre.py     47  0.00s             0           1  0.06s           2026-03-09T19:56:16
+/opt/airflow/dags/generate_mongo.py                           0           1  0.05s           2026-03-09T19:56:16
+================================================================================
+[2026-03-09T19:57:17.158+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dashboard.py          49  0.01s             1           0  0.08s           2026-03-09T19:56:47
+/opt/airflow/dags/mongo_v_postre.py     50  0.00s             0           1  0.04s           2026-03-09T19:56:46
+/opt/airflow/dags/generate_mongo.py                           0           1  0.04s           2026-03-09T19:56:47
+================================================================================
+[2026-03-09T19:57:47.406+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dashboard.py          52  0.01s             1           0  0.08s           2026-03-09T19:57:17
+/opt/airflow/dags/mongo_v_postre.py     53  0.00s             0           1  0.04s           2026-03-09T19:57:17
+/opt/airflow/dags/generate_mongo.py                           0           1  0.04s           2026-03-09T19:57:17
+================================================================================
+[2026-03-09T19:58:17.618+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dashboard.py          55  0.01s             1           0  0.07s           2026-03-09T19:57:47
+/opt/airflow/dags/mongo_v_postre.py     56  0.00s             0           1  0.04s           2026-03-09T19:57:47
+/opt/airflow/dags/generate_mongo.py                           0           1  0.04s           2026-03-09T19:57:47
+================================================================================
+[2026-03-09T19:58:47.868+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dashboard.py          58  0.01s             1           0  0.08s           2026-03-09T19:58:17
+/opt/airflow/dags/mongo_v_postre.py     59  0.00s             0           1  0.04s           2026-03-09T19:58:17
+/opt/airflow/dags/generate_mongo.py                           0           1  0.03s           2026-03-09T19:58:17
+================================================================================
+[2026-03-09T19:59:18.144+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dashboard.py          61  0.01s             1           0  0.09s           2026-03-09T19:58:47
+/opt/airflow/dags/mongo_v_postre.py     62  0.00s             0           1  0.05s           2026-03-09T19:58:47
+/opt/airflow/dags/generate_mongo.py                           0           1  0.04s           2026-03-09T19:58:47
+================================================================================
+[2026-03-09T19:59:48.391+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dashboard.py          64  0.01s             1           0  0.08s           2026-03-09T19:59:18
+/opt/airflow/dags/mongo_v_postre.py     65  0.00s             0           1  0.04s           2026-03-09T19:59:18
+/opt/airflow/dags/generate_mongo.py                           0           1  0.04s           2026-03-09T19:59:18
+================================================================================
+[2026-03-09T20:00:18.630+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dashboard.py          67  0.01s             1           0  0.09s           2026-03-09T19:59:48
+/opt/airflow/dags/generate_mongo.py                           0           1  0.05s           2026-03-09T19:59:48
+/opt/airflow/dags/mongo_v_postre.py     68  0.00s             0           1  0.05s           2026-03-09T19:59:48
+================================================================================
+[2026-03-09T20:00:29.879+0000] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2026-03-09T20:05:18.229+0000] {manager.py:470} INFO - Processing files using up to 2 processes at a time 
+[2026-03-09T20:05:18.230+0000] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2026-03-09T20:05:18.231+0000] {manager.py:472} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2026-03-09T20:05:18.231+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-09T20:05:18.264+0000] {manager.py:740} INFO - There are 3 files in /opt/airflow/dags
+[2026-03-09T20:05:18.677+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dashboard.py                                1           0  0.32s           2026-03-09T20:05:18
+/opt/airflow/dags/generate_mongo.py     45  0.00s             0           0
+/opt/airflow/dags/mongo_v_postre.py     44  0.03s             0           0
+================================================================================
+[2026-03-09T20:05:49.006+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dashboard.py          46  0.01s             1           0  0.32s           2026-03-09T20:05:18
+/opt/airflow/dags/mongo_v_postre.py     47  0.00s             1           0  0.21s           2026-03-09T20:05:18
+/opt/airflow/dags/generate_mongo.py                           1           0  0.17s           2026-03-09T20:05:18
+================================================================================
+[2026-03-09T20:06:19.289+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dashboard.py          49  0.01s             1           0  0.13s           2026-03-09T20:05:49
+/opt/airflow/dags/mongo_v_postre.py     50  0.00s             1           0  0.08s           2026-03-09T20:05:49
+/opt/airflow/dags/generate_mongo.py                           1           0  0.07s           2026-03-09T20:05:49
+================================================================================
+[2026-03-09T20:06:49.579+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dashboard.py          52  0.01s             1           0  0.09s           2026-03-09T20:06:19
+/opt/airflow/dags/mongo_v_postre.py     53  0.00s             1           0  0.09s           2026-03-09T20:06:19
+/opt/airflow/dags/generate_mongo.py                           1           0  0.07s           2026-03-09T20:06:19
+================================================================================
+[2026-03-09T20:07:19.831+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/mongo_v_postre.py     56  0.00s             1           0  0.09s           2026-03-09T20:06:49
+/opt/airflow/dags/dashboard.py          55  0.01s             1           0  0.09s           2026-03-09T20:06:49
+/opt/airflow/dags/generate_mongo.py                           1           0  0.07s           2026-03-09T20:06:49
+================================================================================
+[2026-03-09T20:07:50.059+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/generate_mongo.py                           1           0  0.09s           2026-03-09T20:07:19
+/opt/airflow/dags/mongo_v_postre.py     59  0.00s             1           0  0.08s           2026-03-09T20:07:19
+/opt/airflow/dags/dashboard.py          58  0.01s             1           0  0.08s           2026-03-09T20:07:19
+================================================================================
+[2026-03-09T20:08:20.336+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/mongo_v_postre.py     74  0.00s             1           0  0.09s           2026-03-09T20:07:50
+/opt/airflow/dags/generate_mongo.py                           1           0  0.08s           2026-03-09T20:07:50
+/opt/airflow/dags/dashboard.py          73  0.01s             1           0  0.08s           2026-03-09T20:07:50
+================================================================================
+[2026-03-09T20:08:50.609+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/generate_mongo.py                           1           0  0.08s           2026-03-09T20:08:20
+/opt/airflow/dags/mongo_v_postre.py     78  0.00s             1           0  0.08s           2026-03-09T20:08:20
+/opt/airflow/dags/dashboard.py          77  0.01s             1           0  0.08s           2026-03-09T20:08:20
+================================================================================
+[2026-03-09T20:09:20.873+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/mongo_v_postre.py    122  0.00s             1           0  0.09s           2026-03-09T20:08:50
+/opt/airflow/dags/dashboard.py         121  0.01s             1           0  0.09s           2026-03-09T20:08:50
+/opt/airflow/dags/generate_mongo.py                           1           0  0.07s           2026-03-09T20:08:50
+================================================================================
+[2026-03-09T20:09:51.134+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/generate_mongo.py                           1           0  0.08s           2026-03-09T20:09:21
+/opt/airflow/dags/mongo_v_postre.py    125  0.00s             1           0  0.08s           2026-03-09T20:09:20
+/opt/airflow/dags/dashboard.py         124  0.01s             1           0  0.08s           2026-03-09T20:09:20
+================================================================================
+[2026-03-09T20:10:18.335+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-09T20:10:18.361+0000] {manager.py:740} INFO - There are 3 files in /opt/airflow/dags
+[2026-03-09T20:10:21.397+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/mongo_v_postre.py    128  0.00s             1           0  0.07s           2026-03-09T20:09:51
+/opt/airflow/dags/dashboard.py         127  0.01s             1           0  0.07s           2026-03-09T20:09:51
+/opt/airflow/dags/generate_mongo.py                           1           0  0.06s           2026-03-09T20:09:51
+================================================================================
+[2026-03-09T20:10:51.632+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/mongo_v_postre.py    131  0.00s             1           0  0.07s           2026-03-09T20:10:21
+/opt/airflow/dags/dashboard.py         130  0.01s             1           0  0.07s           2026-03-09T20:10:21
+/opt/airflow/dags/generate_mongo.py                           1           0  0.06s           2026-03-09T20:10:21
+================================================================================
+[2026-03-09T20:11:21.872+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/mongo_v_postre.py    134  0.00s             1           0  0.08s           2026-03-09T20:10:51
+/opt/airflow/dags/dashboard.py         133  0.01s             1           0  0.08s           2026-03-09T20:10:51
+/opt/airflow/dags/generate_mongo.py                           1           0  0.07s           2026-03-09T20:10:51
+================================================================================
+[2026-03-09T20:11:52.119+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/mongo_v_postre.py    137  0.00s             1           0  0.07s           2026-03-09T20:11:21
+/opt/airflow/dags/dashboard.py         136  0.01s             1           0  0.07s           2026-03-09T20:11:21
+/opt/airflow/dags/generate_mongo.py                           1           0  0.06s           2026-03-09T20:11:22
+================================================================================
+[2026-03-09T20:12:22.365+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dashboard.py         139  0.01s             1           0  0.08s           2026-03-09T20:11:52
+/opt/airflow/dags/mongo_v_postre.py    140  0.00s             1           0  0.08s           2026-03-09T20:11:52
+/opt/airflow/dags/generate_mongo.py                           1           0  0.07s           2026-03-09T20:11:52
+================================================================================
+[2026-03-09T20:12:52.631+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dashboard.py         142  0.01s             1           0  0.10s           2026-03-09T20:12:22
+/opt/airflow/dags/mongo_v_postre.py    143  0.00s             1           0  0.08s           2026-03-09T20:12:22
+/opt/airflow/dags/generate_mongo.py                           1           0  0.07s           2026-03-09T20:12:22
+================================================================================
+[2026-03-09T20:13:22.897+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dashboard.py         145  0.01s             1           0  0.11s           2026-03-09T20:12:52
+/opt/airflow/dags/mongo_v_postre.py    146  0.00s             1           0  0.08s           2026-03-09T20:12:52
+/opt/airflow/dags/generate_mongo.py                           1           0  0.07s           2026-03-09T20:12:52
+================================================================================
+[2026-03-09T20:13:49.695+0000] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2026-03-09T20:14:36.988+0000] {manager.py:470} INFO - Processing files using up to 2 processes at a time 
+[2026-03-09T20:14:36.989+0000] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2026-03-09T20:14:36.990+0000] {manager.py:472} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2026-03-09T20:14:36.990+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-09T20:14:37.024+0000] {manager.py:740} INFO - There are 3 files in /opt/airflow/dags
+[2026-03-09T20:14:37.461+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dashboard.py                                1           0  0.33s           2026-03-09T20:14:37
+/opt/airflow/dags/generate_mongo.py     46  0.00s             0           0
+/opt/airflow/dags/mongo_v_postre.py     45  0.03s             0           0
+================================================================================
+[2026-03-09T20:15:07.806+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dashboard.py          64  0.01s             1           0  0.33s           2026-03-09T20:14:37
+/opt/airflow/dags/mongo_v_postre.py     65  0.00s             1           0  0.21s           2026-03-09T20:14:37
+/opt/airflow/dags/generate_mongo.py                           1           0  0.17s           2026-03-09T20:14:37
+================================================================================
+[2026-03-09T20:15:38.130+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dashboard.py          67  0.01s             1           0  0.12s           2026-03-09T20:15:07
+/opt/airflow/dags/mongo_v_postre.py     68  0.00s             1           0  0.08s           2026-03-09T20:15:07
+/opt/airflow/dags/generate_mongo.py                           1           0  0.06s           2026-03-09T20:15:07
+================================================================================
+[2026-03-09T20:16:08.371+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/mongo_v_postre.py     71  0.00s             1           0  0.08s           2026-03-09T20:15:38
+/opt/airflow/dags/dashboard.py          70  0.01s             1           0  0.08s           2026-03-09T20:15:38
+/opt/airflow/dags/generate_mongo.py                           1           0  0.07s           2026-03-09T20:15:38
+================================================================================
+[2026-03-09T20:16:38.651+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/mongo_v_postre.py     74  0.00s             1           0  0.09s           2026-03-09T20:16:08
+/opt/airflow/dags/dashboard.py          73  0.01s             1           0  0.07s           2026-03-09T20:16:08
+/opt/airflow/dags/generate_mongo.py                           1           0  0.06s           2026-03-09T20:16:08
+================================================================================
+[2026-03-09T20:17:08.871+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dashboard.py          76  0.01s             1           0  0.08s           2026-03-09T20:16:38
+/opt/airflow/dags/mongo_v_postre.py     77  0.00s             1           0  0.08s           2026-03-09T20:16:38
+/opt/airflow/dags/generate_mongo.py                           1           0  0.06s           2026-03-09T20:16:38
+================================================================================
+[2026-03-09T20:17:39.126+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/mongo_v_postre.py     80  0.00s             1           0  0.08s           2026-03-09T20:17:08
+/opt/airflow/dags/dashboard.py          79  0.01s             1           0  0.07s           2026-03-09T20:17:08
+/opt/airflow/dags/generate_mongo.py                           1           0  0.06s           2026-03-09T20:17:09
+================================================================================
+[2026-03-09T20:18:09.393+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/mongo_v_postre.py     83  0.00s             1           0  0.10s           2026-03-09T20:17:39
+/opt/airflow/dags/dashboard.py          82  0.01s             1           0  0.10s           2026-03-09T20:17:39
+/opt/airflow/dags/generate_mongo.py                           1           0  0.07s           2026-03-09T20:17:39
+================================================================================
+[2026-03-09T20:18:39.648+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/mongo_v_postre.py     86  0.00s             1           0  0.08s           2026-03-09T20:18:09
+/opt/airflow/dags/dashboard.py          85  0.01s             1           0  0.07s           2026-03-09T20:18:09
+/opt/airflow/dags/generate_mongo.py                           1           0  0.07s           2026-03-09T20:18:09
+================================================================================
+[2026-03-09T20:19:09.925+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/generate_mongo.py                           1           0  0.15s           2026-03-09T20:18:39
+/opt/airflow/dags/mongo_v_postre.py     89  0.00s             1           0  0.10s           2026-03-09T20:18:39
+/opt/airflow/dags/dashboard.py          88  0.03s             1           0  0.08s           2026-03-09T20:18:39
+================================================================================
+[2026-03-09T20:19:37.117+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-09T20:19:37.135+0000] {manager.py:740} INFO - There are 3 files in /opt/airflow/dags
+[2026-03-09T20:19:40.171+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dashboard.py          91  0.01s             1           0  0.09s           2026-03-09T20:19:09
+/opt/airflow/dags/mongo_v_postre.py     92  0.00s             1           0  0.08s           2026-03-09T20:19:10
+/opt/airflow/dags/generate_mongo.py                           1           0  0.06s           2026-03-09T20:19:10
+================================================================================
+[2026-03-09T20:20:10.439+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/mongo_v_postre.py     95  0.00s             1           0  0.07s           2026-03-09T20:19:40
+/opt/airflow/dags/dashboard.py          94  0.01s             1           0  0.07s           2026-03-09T20:19:40
+/opt/airflow/dags/generate_mongo.py                           1           0  0.07s           2026-03-09T20:19:40
+================================================================================
+[2026-03-09T20:20:40.680+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dashboard.py          97  0.01s             1           0  0.07s           2026-03-09T20:20:10
+/opt/airflow/dags/mongo_v_postre.py     98  0.00s             1           0  0.07s           2026-03-09T20:20:10
+/opt/airflow/dags/generate_mongo.py                           1           0  0.07s           2026-03-09T20:20:10
+================================================================================
+[2026-03-09T20:21:10.949+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/mongo_v_postre.py    101  0.00s             1           0  0.09s           2026-03-09T20:20:40
+/opt/airflow/dags/dashboard.py         100  0.01s             1           0  0.08s           2026-03-09T20:20:40
+/opt/airflow/dags/generate_mongo.py                           1           0  0.07s           2026-03-09T20:20:40
+================================================================================
+[2026-03-09T20:21:41.225+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/mongo_v_postre.py    104  0.00s             1           0  0.09s           2026-03-09T20:21:11
+/opt/airflow/dags/dashboard.py         103  0.01s             1           0  0.09s           2026-03-09T20:21:11
+/opt/airflow/dags/generate_mongo.py                           1           0  0.08s           2026-03-09T20:21:11
+================================================================================
+[2026-03-09T20:22:11.479+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dashboard.py         106  0.01s             1           0  0.09s           2026-03-09T20:21:41
+/opt/airflow/dags/generate_mongo.py                           1           0  0.07s           2026-03-09T20:21:41
+/opt/airflow/dags/mongo_v_postre.py    107  0.00s             1           0  0.07s           2026-03-09T20:21:41
+================================================================================
+[2026-03-09T20:22:41.742+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/generate_mongo.py                           1           0  0.09s           2026-03-09T20:22:11
+/opt/airflow/dags/mongo_v_postre.py    110  0.00s             1           0  0.08s           2026-03-09T20:22:11
+/opt/airflow/dags/dashboard.py         109  0.01s             1           0  0.08s           2026-03-09T20:22:11
+================================================================================
+[2026-03-09T20:23:11.988+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dashboard.py         112  0.01s             1           0  0.07s           2026-03-09T20:22:41
+/opt/airflow/dags/mongo_v_postre.py    113  0.00s             1           0  0.07s           2026-03-09T20:22:41
+/opt/airflow/dags/generate_mongo.py                           1           0  0.06s           2026-03-09T20:22:41
+================================================================================
+[2026-03-09T20:23:42.218+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dashboard.py         115  0.01s             1           0  0.08s           2026-03-09T20:23:12
+/opt/airflow/dags/mongo_v_postre.py    116  0.00s             1           0  0.08s           2026-03-09T20:23:12
+/opt/airflow/dags/generate_mongo.py                           1           0  0.06s           2026-03-09T20:23:12
+================================================================================
+[2026-03-09T20:24:12.453+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dashboard.py         118  0.01s             1           0  0.09s           2026-03-09T20:23:42
+/opt/airflow/dags/mongo_v_postre.py    119  0.00s             1           0  0.08s           2026-03-09T20:23:42
+/opt/airflow/dags/generate_mongo.py                           1           0  0.06s           2026-03-09T20:23:42
+================================================================================
+[2026-03-09T20:24:37.636+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-09T20:24:37.650+0000] {manager.py:740} INFO - There are 3 files in /opt/airflow/dags
+[2026-03-09T20:24:42.688+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dashboard.py         121  0.01s             1           0  0.08s           2026-03-09T20:24:12
+/opt/airflow/dags/mongo_v_postre.py    122  0.00s             1           0  0.07s           2026-03-09T20:24:12
+/opt/airflow/dags/generate_mongo.py                           1           0  0.06s           2026-03-09T20:24:12
+================================================================================
+[2026-03-09T20:25:12.920+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/mongo_v_postre.py    125  0.00s             1           0  0.07s           2026-03-09T20:24:42
+/opt/airflow/dags/dashboard.py         124  0.01s             1           0  0.07s           2026-03-09T20:24:42
+/opt/airflow/dags/generate_mongo.py                           1           0  0.06s           2026-03-09T20:24:42
+================================================================================
+[2026-03-09T20:25:43.161+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/mongo_v_postre.py    128  0.00s             1           0  0.08s           2026-03-09T20:25:12
+/opt/airflow/dags/dashboard.py         127  0.01s             1           0  0.07s           2026-03-09T20:25:12
+/opt/airflow/dags/generate_mongo.py                           1           0  0.07s           2026-03-09T20:25:13
+================================================================================
+[2026-03-09T20:26:13.465+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/mongo_v_postre.py    131  0.00s             1           0  0.08s           2026-03-09T20:25:43
+/opt/airflow/dags/dashboard.py         130  0.01s             1           0  0.08s           2026-03-09T20:25:43
+/opt/airflow/dags/generate_mongo.py                           1           0  0.06s           2026-03-09T20:25:43
+================================================================================
+[2026-03-09T20:26:43.718+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/mongo_v_postre.py    134  0.00s             1           0  0.09s           2026-03-09T20:26:13
+/opt/airflow/dags/dashboard.py         133  0.01s             1           0  0.08s           2026-03-09T20:26:13
+/opt/airflow/dags/generate_mongo.py                           1           0  0.07s           2026-03-09T20:26:13
+================================================================================
+[2026-03-09T20:27:13.954+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/mongo_v_postre.py    137  0.00s             1           0  0.08s           2026-03-09T20:26:43
+/opt/airflow/dags/dashboard.py         136  0.01s             1           0  0.08s           2026-03-09T20:26:43
+/opt/airflow/dags/generate_mongo.py                           1           0  0.07s           2026-03-09T20:26:43
+================================================================================
+[2026-03-09T20:27:44.180+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/generate_mongo.py                           1           0  0.09s           2026-03-09T20:27:14
+/opt/airflow/dags/dashboard.py         139  0.01s             1           0  0.09s           2026-03-09T20:27:14
+/opt/airflow/dags/mongo_v_postre.py    140  0.00s             1           0  0.09s           2026-03-09T20:27:14
+================================================================================
+[2026-03-09T20:28:14.499+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/mongo_v_postre.py    143  0.00s             1           0  0.09s           2026-03-09T20:27:44
+/opt/airflow/dags/dashboard.py         142  0.02s             1           0  0.08s           2026-03-09T20:27:44
+/opt/airflow/dags/generate_mongo.py                           1           0  0.07s           2026-03-09T20:27:44
+================================================================================
+[2026-03-09T20:28:44.813+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dashboard.py         145  0.01s             1           0  0.12s           2026-03-09T20:28:14
+/opt/airflow/dags/mongo_v_postre.py    146  0.00s             1           0  0.12s           2026-03-09T20:28:14
+/opt/airflow/dags/generate_mongo.py                           1           0  0.07s           2026-03-09T20:28:14
+================================================================================
+[2026-03-09T20:29:15.045+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/mongo_v_postre.py    149  0.00s             1           0  0.08s           2026-03-09T20:28:44
+/opt/airflow/dags/dashboard.py         148  0.01s             1           0  0.08s           2026-03-09T20:28:44
+/opt/airflow/dags/generate_mongo.py                           1           0  0.07s           2026-03-09T20:28:44
+================================================================================
+[2026-03-09T20:29:38.245+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-09T20:29:38.270+0000] {manager.py:740} INFO - There are 3 files in /opt/airflow/dags
+[2026-03-09T20:29:45.320+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/mongo_v_postre.py    152  0.00s             1           0  0.10s           2026-03-09T20:29:15
+/opt/airflow/dags/dashboard.py         151  0.01s             1           0  0.09s           2026-03-09T20:29:15
+/opt/airflow/dags/generate_mongo.py                           1           0  0.08s           2026-03-09T20:29:15
+================================================================================
+[2026-03-09T20:30:15.531+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/mongo_v_postre.py    155  0.00s             1           0  0.07s           2026-03-09T20:29:45
+/opt/airflow/dags/generate_mongo.py                           1           0  0.07s           2026-03-09T20:29:45
+/opt/airflow/dags/dashboard.py         154  0.01s             1           0  0.07s           2026-03-09T20:29:45
+================================================================================
+[2026-03-09T20:30:45.800+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dashboard.py         157  0.01s             1           0  0.09s           2026-03-09T20:30:15
+/opt/airflow/dags/mongo_v_postre.py    158  0.00s             1           0  0.07s           2026-03-09T20:30:15
+/opt/airflow/dags/generate_mongo.py                           1           0  0.06s           2026-03-09T20:30:15
+================================================================================
+[2026-03-09T20:30:50.776+0000] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15

@@ -1,0 +1,69 @@
+[2026-03-09T20:09:14.348+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-03-09T20:09:14.365+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: 3_build_datamarts.build_dm_content_popularity manual__2026-03-09T20:09:12.834309+00:00 [queued]>
+[2026-03-09T20:09:14.368+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: 3_build_datamarts.build_dm_content_popularity manual__2026-03-09T20:09:12.834309+00:00 [queued]>
+[2026-03-09T20:09:14.369+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2026-03-09T20:09:14.376+0000] {taskinstance.py:2330} INFO - Executing <Task(PostgresOperator): build_dm_content_popularity> on 2026-03-09 20:09:12.834309+00:00
+[2026-03-09T20:09:14.378+0000] {standard_task_runner.py:64} INFO - Started process 111 to run task
+[2026-03-09T20:09:14.380+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', '3_build_datamarts', 'build_dm_content_popularity', 'manual__2026-03-09T20:09:12.834309+00:00', '--job-id', '6', '--raw', '--subdir', 'DAGS_FOLDER/dashboard.py', '--cfg-path', '/tmp/tmpl1am6whq']
+[2026-03-09T20:09:14.381+0000] {standard_task_runner.py:91} INFO - Job 6: Subtask build_dm_content_popularity
+[2026-03-09T20:09:14.420+0000] {task_command.py:426} INFO - Running <TaskInstance: 3_build_datamarts.build_dm_content_popularity manual__2026-03-09T20:09:12.834309+00:00 [running]> on host 02552d753929
+[2026-03-09T20:09:14.469+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='3_build_datamarts' AIRFLOW_CTX_TASK_ID='build_dm_content_popularity' AIRFLOW_CTX_EXECUTION_DATE='2026-03-09T20:09:12.834309+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-03-09T20:09:12.834309+00:00'
+[2026-03-09T20:09:14.469+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-03-09T20:09:14.558+0000] {sql.py:282} INFO - Executing: 
+CREATE TABLE IF NOT EXISTS dm_content_popularity AS
+SELECT 
+    DATE(start_time) as watch_date,
+    platform,
+    content_id,
+    COUNT(DISTINCT session_id) as total_views,
+    COUNT(DISTINCT user_id) as unique_viewers,
+    AVG(watch_duration_minutes) as avg_watch_time_min
+FROM viewing_sessions
+GROUP BY DATE(start_time), platform, content_id;
+
+-- Перезапись витрины актуальными данными
+TRUNCATE TABLE dm_content_popularity;
+INSERT INTO dm_content_popularity
+SELECT 
+    DATE(start_time) as watch_date,
+    platform,
+    content_id,
+    COUNT(DISTINCT session_id) as total_views,
+    COUNT(DISTINCT user_id) as unique_viewers,
+    AVG(watch_duration_minutes) as avg_watch_time_min
+FROM viewing_sessions
+GROUP BY DATE(start_time), platform, content_id;
+[2026-03-09T20:09:14.562+0000] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2026-03-09T20:09:14.565+0000] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-09T20:09:14.594+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-03-09T20:09:14.600+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/common/sql/operators/sql.py", line 283, in execute
+    hook = self.get_db_hook()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/common/sql/operators/sql.py", line 194, in get_db_hook
+    return self._hook
+           ^^^^^^^^^^
+  File "/usr/local/lib/python3.12/functools.py", line 995, in __get__
+    val = self.func(instance)
+          ^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/common/sql/operators/sql.py", line 154, in _hook
+    hook = conn.get_hook(hook_params=self.hook_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/connection.py", line 403, in get_hook
+    raise AirflowException(f'Unknown hook type "{self.conn_type}"')
+airflow.exceptions.AirflowException: Unknown hook type "postgresql+psycopg2"
+[2026-03-09T20:09:14.602+0000] {taskinstance.py:1206} INFO - Marking task as UP_FOR_RETRY. dag_id=3_build_datamarts, task_id=build_dm_content_popularity, run_id=manual__2026-03-09T20:09:12.834309+00:00, execution_date=20260309T200912, start_date=20260309T200914, end_date=20260309T200914
+[2026-03-09T20:09:14.609+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 6 for task build_dm_content_popularity (Unknown hook type "postgresql+psycopg2"; 111)
+[2026-03-09T20:09:14.632+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 1
+[2026-03-09T20:09:14.641+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-03-09T20:09:14.644+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
